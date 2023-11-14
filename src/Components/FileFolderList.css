@@ -1,0 +1,80 @@
+.fileFolderList {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  
+  li {
+    list-style: none;
+    cursor: pointer;
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color:#000;
+    text-align: left;
+  }
+  
+  li:hover {
+    background-color: grey;
+    color:#fff
+  }
+  .fileItem {
+    display: inline-flex;
+    width:100%
+  }
+  .fileItem .group {
+    text-align: right;
+    width:60%;
+    text-transform: capitalize;
+
+  }
+  .fileItem .folderColor {
+    color:#8f8410;
+    font-weight: bold;
+  }
+  .fileItem div {
+    margin:5px;
+    width:40%;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  input,
+  select,
+  button {
+    margin-right: 10px;
+    padding:10px;
+    background-color: #fff;
+    color:#5e5c5d;
+    font-size:18px;
+    margin-left:5px;
+  }
+  .sub-header {
+    display: inline-flex;
+  }
+  .sub-header div{
+    font-size:18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+  }
+  .sub-header b {
+    font-size:23px;
+  }
+  .sub-header button{
+    margin-left: 20px;
+    font-size: 7px;
+  }
+  
